@@ -1,0 +1,196 @@
+*{
+    background-color: #222831;
+    font-family: "Inter", sans-serif;
+}
+.title{
+    color: #EEEEEE;
+    background-color: #527853;
+    margin: 5px;
+    padding: 5px;
+    font-size: xx-large;
+    font-family: "Inter", sans-serif;
+    border-bottom: 1px solid #527853;
+}
+a{
+    all: unset;
+}
+a:hover{
+    cursor: default;
+}
+.horizontalnav{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.mainbody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+ul.verticlebar{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: capitalize;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    color: #EEEEEE;
+}
+li.vnavbar{
+    display: inline-block;
+    min-width: auto;
+    padding: 10px;
+    background-color: #EEEEEE;
+    color: black;
+    border-bottom:1px solid #24252A;
+}
+ul.navbar{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    color: #EEEEEE;
+    font-size: 15px;
+}
+li.navbar{
+    display: inline-block;
+    padding: 10px;
+}
+li.navbar:hover{
+    border-bottom: #EEEEEE;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0)
+}
+li.vnavbar:hover{
+    color: #EEEEEE;
+    border-bottom: #EEEEEE;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0)
+}
+.input {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    width: 100%;
+    height: 300px;
+    background-color: #35374B;
+    color: #EEEEEE;
+}
+.domain{
+    background-color: rgb(0, 0, 0);
+    color: #EEEEEE;
+}
+.margin{
+    margin-top: 10px;
+}
+.domaintitle{
+    margin-top: 5px;
+    color: #EEEEEE;
+    text-align: center;
+    font-size: large;
+    border: 2px solid rgb(114, 97, 97);
+    background-color: rgb(61, 61, 61);
+}
+.emainingomains , .RLremovedBox{
+    background-color: rgb(1, 37, 31);
+}
+.remainingTitle , .removetitle{
+    font-family: monospace;
+    border: 2px solid rgb(189, 185, 185);
+    font-size: x-large;
+    background-color: rgb(217, 11, 4);
+}
+.MFradio{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container {
+    flex-basis: 40%;
+    flex-grow: 1;
+    /* padding: 15px; */
+    /* min-width: 50%; */
+    margin: 15px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.sidebar{
+    display: flex;
+    flex-direction: row;
+}
+.border{
+    border: 1px solid #35374B;
+    border-radius: 4px;
+}
+.pOptions,.pInsert,.pModify,.MFoptions,.pNotContain,.RLoptions{
+margin: 3px;
+color: #EEEEEE;
+}
+.insert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+.pinsertradio{
+margin-left: 20px;
+margin-bottom: 5px;
+}
+input[type="number"],.ptext,.MFtext{
+    color: #EEEEEE;
+    background-color: black;
+}
+.BTNs{
+    min-width: 180px;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap */
+    padding: .5%;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    width: 35%;
+    /* border-radius: 10px; */
+    border: 1px solid #EEEEEE;
+
+}
+.button{
+    font-size: 15px;
+    background-color: #EEEEEE;
+    margin: 0px 3px;
+    flex-basis: 200px;
+    padding: 3px;
+    flex-grow: 1;
+    /* padding-left: 40%; */
+    /* padding-right: 40%; */
+}
+.button:hover{
+    color: #EEEEEE;
+    background-color: rgb(0, 0, 0);
+    /* border: 1.5px solid black; */
+}
+.copyBtn{
+    color: #EEEEEE;
+    padding:0px 5px;
+    height: 1.9rem;
+}
+.copyBtn:hover{
+    /* height: 2rem; */
+    filter: sepia(100%);
+    opacity: 0.5;
+}
+.active{
+    background-color: #31363F;
+}
+.sactive{
+    background-color: #322653 !important;
+    color: #EEEEEE !important;
+}
+.displaynone{
+    display: none !important;
+}
